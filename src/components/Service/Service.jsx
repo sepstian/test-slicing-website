@@ -30,7 +30,6 @@ const Services = () => {
             className={`p-6 border-t-4 ${service.borderColor} bg-white shadow-lg rounded-lg w-full md:w-1/3 text-center`}
             >
             <div className={`text-4xl mb-3 ${service.textColor}`}>
-                {/* Tempatkan icon di sini jika ada */}
                 ⬤
             </div>
             <h3 className="text-xl font-bold mb-2">{service.title}</h3>
